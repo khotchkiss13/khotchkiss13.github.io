@@ -12,7 +12,7 @@ will begin to contain the progress for the new Snap! Website frontend,
 which will include a plethora of new features for Snap! You can find
 a list of these palnned features below the Development Timeline.
 
-PLANNED DEVELOPMENT TIMELINE
+Planned Development Timeline
 ============================
 November 10 2014 - Begin creating conceptual mockups of future website
 November 18 2014 - Present mockups to Professor Brian Harvey for approval
@@ -32,13 +32,13 @@ August 1 2015    - Publish finalized website and back end in time for school to 
                    This will include the full launch of all of the new features that
                    have been implemented with Snap! and the website. 
                    
-PLANNED FEATURES (STATIC PAGE)
+Planned Features (Static Page)
 ==============================
 Modern Redesign of the current Snap! landing page
 Highlight the uses of Snap!
 Begin showing featured projects
 
-PLANNED FEATURES (DYNAMIC PAGE)
+Planned Features (Dynamic Page)
 ===============================
 Joint ownership of Snap! projects
 Teacher and Student profiles
