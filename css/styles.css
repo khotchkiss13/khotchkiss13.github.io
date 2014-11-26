@@ -119,9 +119,22 @@ body {
   height: 320px;
 }
 
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  height: 100%;
+}
+
 #mainContent {
 	position: relative;
+  min-height: 100%;
+  padding-bottom: 200px;
 	top: 350px;
+}
+
+#mainContent: after {
+  content: "";
+  display: block;
 }
 
 h1 {
@@ -174,6 +187,15 @@ h4 {
   position: relative;
 
 }
+
+h5 {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
 hr {
 	height: 2px;
 	width: 100%;
@@ -228,3 +250,39 @@ table#extensionmenu td.text a{
   font-weight: 700;
   font-size: 30px;
 }
+
+#footer {
+  position: absolute;
+  bottom: -420px;
+  width: 100%;
+  z-index: 0;
+  margin: -80px;
+  background: #E9E9E9;
+  height: 239px;
+}
+
+#footer ul {
+  margin-left: 80px;
+}
+
+#footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 184px;
+  text-align: left;
+  vertical-align: top;
+}
+
+#footermenu ul {
+  margin-left: -40px;
+}
+
+#footermenu ul a {
+  color: #2196F3;
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
