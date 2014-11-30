@@ -1,34 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 html {
-	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 0;
 	background: #FFFFFF;
 	height: 100%;
+	width: 850px;
+	overflow-x: hidden;
 }
 
 body {
-	margin-left: 80px;
-	margin-right: 80px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #menu {
   position: fixed;
   top: 0;
-  right: 80px;
+  left: 0;
+	width: 100%;
   z-index: 1;
   -webkit-box-shadow: 0px 2px 2px #424242;
-  margin: 0 -500%;
-  padding: 0.5em 500%;
-  background: #2196F3;;
-  height: 30px;
-}
-
-#menu ul {
-  list-style: none;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  background: #2196F3;;
+  height: 45px;
+}
+
+#menuitems {
+	width: 850px;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menuitems ul {
+	position: relative;
+	list-style: none;
+	height: 45px;
+	top: 0;
+	margin-top: 0;
+	margin-bottom: -45px;
+	padding: 0;
 }
 
 #menu ul:after {
@@ -40,6 +55,8 @@ body {
 }
 
 #menu li {
+	float: right;
+	top: 0;
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -48,7 +65,7 @@ body {
 #menu a {
   color: #ffffff;
   text-decoration: none;
-  padding: 12px 25px;
+  padding: 13px 25px;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -110,26 +127,28 @@ body {
 
 #banner {
   position: absolute;
-  top: 128px;
+  top: 45px;
+	left: 0;
   width: 100%;
   z-index: 0;
   -webkit-box-shadow: 0px 2px 2px #424242;
-  margin: -80px;
-  background: #03A9F4;
-  height: 320px;
+  background: #42A5F5;
+  height: 351px;
 }
 
 #wrapper {
   min-height: 100%;
   position: relative;
   height: 100%;
+	min-width: 850px;
+	width: 850px;
 }
 
 #mainContent {
 	position: relative;
   min-height: 100%;
   padding-bottom: 200px;
-	top: 350px;
+	top: 370px;
 }
 
 #mainContent: after {
@@ -144,11 +163,9 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  position: relative;
 }
 h2 {
   color: #000000;
-  margin-left: 20px;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -205,9 +222,9 @@ hr {
 }
 
 table#featured {
-  width: 80%;
+  width: 850px;
   margin-right: auto;
-  margin-left: auto; 
+  margin-left: auto;
   text-align: center;
 }
 
@@ -225,7 +242,7 @@ table#featured td.title a:hover {
 }
 
 table#extensionmenu {
-  width: 80%;
+  width: 850px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -248,7 +265,7 @@ table#extensionmenu td.text a{
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 #footer {
@@ -285,4 +302,3 @@ table#extensionmenu td.text a{
   font-size: 12px;
   text-align: left;
 }
-
