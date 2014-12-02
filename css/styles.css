@@ -139,21 +139,21 @@ body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  height: 100%;
 	min-width: 850px;
 	width: 850px;
+	top: 370px;
+	margin-bottom: 120px;
 }
 
 #mainContent {
 	position: relative;
   min-height: 100%;
-  padding-bottom: 200px;
-	top: 370px;
 }
 
 #mainContent: after {
   content: "";
   display: block;
+	min-height: 100%;
 }
 
 h1 {
@@ -211,6 +211,8 @@ h5 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 hr {
@@ -269,17 +271,18 @@ table#extensionmenu td.text a{
 }
 
 #footer {
-  position: absolute;
-  bottom: -420px;
+	position: relative;
+	bottom: -250px;
   width: 100%;
   z-index: 0;
-  margin: -80px;
-  background: #E9E9E9;
-  height: 239px;
+  margin-right: auto;
+	margin-left: auto;
+  height: 120px;
 }
 
 #footer ul {
-  margin-left: 80px;
+	text-align: left;
+	-webkit-padding-start: 100px;
 }
 
 #footer ul li {
@@ -290,10 +293,6 @@ table#extensionmenu td.text a{
   vertical-align: top;
 }
 
-#footermenu ul {
-  margin-left: -40px;
-}
-
 #footermenu ul a {
   color: #2196F3;
   display: block;
@@ -301,4 +300,14 @@ table#extensionmenu td.text a{
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   text-align: left;
+}
+
+#footermenu ul {
+	color: #2196F3;
+	display: block;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	text-align: left;
+	-webkit-padding-start: 0;
 }
