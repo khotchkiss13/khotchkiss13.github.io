@@ -32,10 +32,12 @@ August 1 2015    - Publish finalized website and back end in time for school to 
                    This will include the full launch of all of the new features that  
                    have been implemented with Snap! and the website.
 
-Current Progress (November 30 2014)
+Current Progress (December 2 2014)
 ===================================
 Base state of website complete including:
-Top Navigation Bar  
+Top Navigation Bar
+Bottom Footer (with some links working)  
+Updated information pages, including pages for parents, teachers, and about us 
 Basic Layout
 Main CSS
 
