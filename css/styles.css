@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700, normal);
 
 html {
 	margin-right: auto;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   background: #2196F3;;
-  height: 45px;
+  height: 42px;
 }
 
 #menuitems {
@@ -127,7 +127,7 @@ body {
 
 #banner {
   position: absolute;
-  top: 45px;
+  top: 42px;
 	left: 0;
   width: 100%;
   z-index: 0;
@@ -142,7 +142,7 @@ body {
 	min-width: 850px;
 	width: 850px;
 	top: 370px;
-	margin-bottom: 120px;
+	margin-bottom: 110px;
 }
 
 #mainContent {
@@ -168,7 +168,7 @@ h2 {
   color: #000000;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 24px;
   position: relative;
 }
@@ -177,7 +177,7 @@ h2 a {
   color: #2196F3;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 24px;
   position: relative;
 }
@@ -209,7 +209,7 @@ h5 {
   color: #000000;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -272,12 +272,12 @@ table#extensionmenu td.text a{
 
 #footer {
 	position: relative;
-	bottom: -250px;
+	bottom: -260px;
   width: 100%;
   z-index: 0;
   margin-right: auto;
 	margin-left: auto;
-  height: 120px;
+  height: 110px;
 }
 
 #footer ul {
@@ -300,6 +300,10 @@ table#extensionmenu td.text a{
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   text-align: left;
+}
+
+#footermenu ul a:hover {
+	text-decoration: underline;
 }
 
 #footermenu ul {
