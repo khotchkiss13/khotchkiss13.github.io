@@ -18,7 +18,7 @@
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .jcarousel li {
@@ -53,7 +53,7 @@
 .jcarousel-control-prev,
 .jcarousel-control-next {
     position: absolute;
-    top: 50%;
+    top: 35%;
     margin-top: -15px;
     width: 30px;
     height: 30px;
@@ -77,6 +77,13 @@
 
 .jcarousel-control-next {
     right: -35px;
+}
+
+.jcarousel-control-next:hover,
+.jcarousel-control-prev:hover{
+  -moz-box-shadow: 0 0 5px #000000;
+  -webkit-box-shadow: 0 0 5px #000000;
+  box-shadow: 0 0 5px #000000;
 }
 
 .jcarousel-pagination {
