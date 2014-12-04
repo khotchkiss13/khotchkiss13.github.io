@@ -32,12 +32,13 @@ August 1 2015    - Publish finalized website and back end in time for school to 
                    This will include the full launch of all of the new features that  
                    have been implemented with Snap! and the website.
 
-Current Progress (December 2 2014)
+Current Progress (December 3 2014)
 ===================================
 Base state of website complete including:
 Top Navigation Bar
+Carousel for featured projects finished with basic funtionality
 Bottom Footer (with some links working)  
-Updated information pages, including pages for parents, teachers, and about us 
+Updated information pages, including pages for parents, teachers, and about us
 Basic Layout
 Main CSS
 
@@ -45,7 +46,7 @@ Planned Features (Static Page)
 ==============================
 Modern Redesign of the current Snap! landing page  
 Highlight the uses of Snap!  
-Begin showing featured projects  
+Begin showing featured projects  (CURRENTLY IN PROGRESS)
 
 Planned Features (Dynamic Page)
 ===============================

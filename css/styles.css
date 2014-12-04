@@ -25,7 +25,7 @@ body {
   -webkit-box-shadow: 0px 2px 2px #424242;
   margin: 0;
   padding: 0;
-  background: #2196F3;;
+  background: #2196F3;
   height: 42px;
 }
 
@@ -199,9 +199,11 @@ h4 {
   color: #000000;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 32px;
   position: relative;
+	-webkit-margin-before: 1.8em;
+	-webkit-margin-after: .5em;
 
 }
 
@@ -219,8 +221,8 @@ hr {
 	height: 2px;
 	width: 100%;
 	background: #2196F3;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 50px;
+	margin-bottom: 25px;
 }
 
 table#featured {
