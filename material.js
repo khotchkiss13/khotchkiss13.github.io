@@ -3579,4 +3579,4 @@ function materialRipple() {
 
 function recycler() {
     $('html').find('.ripple:not(.active)').remove();
-};
+}
